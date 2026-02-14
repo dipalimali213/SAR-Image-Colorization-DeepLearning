@@ -80,7 +80,7 @@ Architecture Type: Deep Learning + Computer Vision Pipeline
 ## 🔹 Colorized Output Image
 
 <p align="center">
-<img src="results/colorized_output.png" width="700"/>
+<img src="results/colorized_output - Copy.png" width="700"/>
 </p>
 
 ---
