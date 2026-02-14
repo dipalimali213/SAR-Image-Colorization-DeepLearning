@@ -1,13 +1,17 @@
-# 🌍 SAR Image Colorization for Comprehensive Insight  
-### Using Deep Learning Model  
+<p align="center">
+  <h1 align="center">🌍 SAR Image Colorization for Comprehensive Insight</h1>
+  <h3 align="center">Using Deep Learning Model</h3>
+</p>
 
 ---
 
 ## 📌 Project Overview
 
-Synthetic Aperture Radar (SAR) images are captured in grayscale format and lack visual interpretability compared to optical images. This project presents a **Deep Learning-based SAR Image Colorization system** that enhances grayscale SAR images into realistic color representations using Convolutional Neural Networks (CNN).
+Synthetic Aperture Radar (SAR) images are captured in grayscale format and lack visual interpretability compared to optical images.
 
-The system improves visualization, interpretation, and analytical insight of satellite imagery for applications such as:
+This project presents a **Deep Learning-based SAR Image Colorization system** that enhances grayscale SAR images into realistic color representations using Convolutional Neural Networks (CNN).
+
+The system improves visualization, interpretation, and analytical insight of satellite imagery for:
 
 - 🌊 Water body detection  
 - 🏙 Urban area mapping  
@@ -17,23 +21,29 @@ The system improves visualization, interpretation, and analytical insight of sat
 
 ---
 
-## 🧠 Problem Statement
+## 🎯 Problem Statement
 
-SAR images are highly informative but difficult to interpret visually because they are grayscale and contain speckle noise. Manual analysis requires expertise.
+SAR images are highly informative but difficult to interpret visually because they are grayscale and contain speckle noise.
+
+Manual analysis requires expertise.
 
 👉 Our solution automatically colorizes SAR images using a Deep Learning model to enhance interpretability and visual clarity.
 
 ---
 
-## 🚀 Proposed Solution
+# 🛠 Tech Stack
 
-We implemented a Deep Learning-based colorization model that:
+<p align="center">
 
-1. Accepts grayscale SAR images  
-2. Extracts spatial and texture features using CNN  
-3. Predicts chrominance (color) components  
-4. Reconstructs a colorized SAR image  
-5. Provides improved visual insight for analysis  
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white"/>
+
+</p>
 
 ---
 
@@ -46,26 +56,12 @@ Preprocessing (Resize, Normalize)
         ↓
 Deep Learning Model (CNN)
         ↓
-Color Prediction (a*b channels)
+Color Prediction (a*b Channels)
         ↓
 Reconstruction (LAB → RGB)
         ↓
 Colorized SAR Image (Output)
 ```
-
----
-
-## 🛠 Technologies Used
-
-| Technology | Purpose |
-|------------|----------|
-| Python | Core programming language |
-| OpenCV | Image processing |
-| NumPy | Numerical computation |
-| TensorFlow / Keras | Deep Learning framework |
-| Matplotlib | Visualization |
-| Jupyter Notebook | Model experimentation |
-| CNN Architecture | Feature extraction |
 
 ---
 
@@ -79,7 +75,7 @@ SAR-Image-Colorization/
 ├── output/
 ├── results/
 │    ├── grayscale_input.png
-│    ├── colorized_output - Copy.png
+│    ├── colorized_output.png
 │    └── comparison.jpeg
 │
 ├── app.py
@@ -91,7 +87,7 @@ SAR-Image-Colorization/
 
 ---
 
-## 🖼 Results
+# 🖼 Results
 
 ### 🔹 Grayscale SAR Image
 
@@ -119,20 +115,20 @@ SAR-Image-Colorization/
 
 ## ⚙ Installation & Setup Guide
 
-### Step 1: Clone Repository
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/SAR-Image-Colorization.git
 cd SAR-Image-Colorization
 ```
 
-### Step 2: Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: Run Application
+### 3️⃣ Run Application
 
 ```bash
 python app.py
@@ -149,8 +145,8 @@ python image_colorization.py
 ## 📈 Model Working
 
 - Converts RGB → LAB color space  
-- Uses L channel as input  
-- CNN predicts a*b channels  
+- Uses L channel as model input  
+- CNN predicts a*b chrominance channels  
 - Reconstructs LAB → RGB image  
 - Generates enhanced color output  
 
@@ -167,12 +163,20 @@ python image_colorization.py
 
 ---
 
-## 👨‍💻 Project Team
+## 📚 Research Contribution
 
-**Under the Guidance of:**  
-Prof. P. D. Lanjewar  
+This project is developed as a **research-oriented group project** focusing on Deep Learning-based SAR image enhancement.
+
+---
+
+# 👨‍💻 Project Team
+
+### 🎓 Under the Guidance of
+
+**Prof. P. D. Lanjewar**  
 Assistant Professor, Department of AIML  
 R C Patel Institute of Technology  
+Shirpur, Maharashtra  
 
 ---
 
@@ -186,20 +190,22 @@ R C Patel Institute of Technology
 
 ---
 
-## 📌 Future Enhancements
+## 🚀 Future Enhancements
 
 - U-Net architecture implementation  
 - GAN-based colorization  
 - Attention mechanism integration  
 - Real-time web deployment  
-- Performance benchmarking with PSNR & SSIM  
+- Performance benchmarking using PSNR & SSIM  
 
 ---
 
 ## 📄 License
 
-This project is developed for academic and research purposes.
+Developed for academic and research purposes.
 
 ---
 
+<p align="center">
 ⭐ If you found this project helpful, please consider giving it a star!
+</p>
