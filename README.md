@@ -119,7 +119,7 @@ SAR-Image-Colorization/
 ### 🔹 Grayscale SAR Image
 
 <p align="center">
-  <img src="assets/grayscale_input.png" width="600">
+  <img src="results/grayscale_input.png" width="600">
 </p>
 
 ---
@@ -127,7 +127,7 @@ SAR-Image-Colorization/
 ### 🔹 Colorized Output
 
 <p align="center">
-  <img src="assets/colorized_output.png" width="600">
+  <img src="results/colorized_output.png" width="600">
 </p>
 
 ---
@@ -135,7 +135,7 @@ SAR-Image-Colorization/
 ### 🔹 Before vs After Comparison
 
 <p align="center">
-  <img src="assets/comparison.jpeg" width="800">
+  <img src="results/comparison.jpeg" width="800">
 </p>
 
 ---
