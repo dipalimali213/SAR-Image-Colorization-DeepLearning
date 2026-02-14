@@ -29,11 +29,11 @@ SAR images are highly informative but difficult to interpret visually because th
 
 We implemented a Deep Learning-based colorization model that:
 
-1. Accepts grayscale SAR images
-2. Extracts spatial and texture features using CNN
-3. Predicts chrominance (color) components
-4. Reconstructs a colorized SAR image
-5. Provides improved visual insight for analysis
+1. Accepts grayscale SAR images  
+2. Extracts spatial and texture features using CNN  
+3. Predicts chrominance (color) components  
+4. Reconstructs a colorized SAR image  
+5. Provides improved visual insight for analysis  
 
 ---
 
@@ -61,8 +61,6 @@ Colorized SAR Image (Output)
 ---
 
 ## 📊 ER Diagram (Conceptual)
-
-Although this is primarily a deep learning project, the dataset handling can be represented as:
 
 ```
 Dataset
@@ -99,15 +97,19 @@ Dataset
 ```
 SAR-Image-Colorization/
 │
-├── models/                     # Pre-trained model files
-├── images/                     # Input test images
-├── output/                     # Colorized outputs
-├── app.py                      # Main application file
-├── image_colorization.py       # Core colorization logic
-├── GUI.py                      # Optional GUI implementation
-├── comparison.jpeg             # Before & After comparison
-├── requirements.txt            # Dependencies
-└── README.md                   # Project documentation
+├── models/                     
+├── images/                     
+├── output/                     
+├── assets/                     # README images
+│    ├── grayscale.jpeg
+│    ├── colorized.jpeg
+│    └── comparison.jpeg
+│
+├── app.py                      
+├── image_colorization.py       
+├── GUI.py                      
+├── requirements.txt            
+└── README.md                   
 ```
 
 ---
@@ -115,20 +117,26 @@ SAR-Image-Colorization/
 ## 🖼 Results
 
 ### 🔹 Grayscale SAR Image
-(Original SAR Image)
+
+<p align="center">
+  <img src="assets/grayscale_input.png" width="600">
+</p>
+
+---
 
 ### 🔹 Colorized Output
-(Model Generated Output)
 
-### 🔹 Comparison
+<p align="center">
+  <img src="assets/colorized_output - Copy.png" width="600">
+</p>
 
-Add this image inside your repo and reference like this:
+---
 
-```markdown
-## 📊 Before vs After Comparison
+### 🔹 Before vs After Comparison
 
-![Comparison](comparison.jpeg)
-```
+<p align="center">
+  <img src="assets/comparison.jpeg" width="800">
+</p>
 
 ---
 
@@ -173,12 +181,12 @@ python image_colorization.py
 
 ## 🔬 Applications
 
-- Remote sensing
-- Environmental monitoring
-- Smart agriculture
-- Urban planning
-- Defense surveillance
-- Disaster assessment
+- Remote sensing  
+- Environmental monitoring  
+- Smart agriculture  
+- Urban planning  
+- Defense surveillance  
+- Disaster assessment  
 
 ---
 
@@ -196,36 +204,16 @@ This project is developed as a **research-oriented group project** focusing on d
 Assistant Professor, Department of AIML  
 R C Patel Institute of Technology  
 Shirpur, Maharashtra  
-📧 prilanajewar2@gmail.com  
 
 ---
 
 ### 👩‍💻 Student Contributors
 
-**Dipali Mali**  
-Computer Science and Engineering  
-R C Patel Institute of Technology  
-📧 dipalimali213@gmail.com  
-
-**Neha Gayakawad**  
-Computer Science and Engineering  
-R C Patel Institute of Technology  
-📧 nehasandeepgayakawad@gmail.com  
-
-**Bhavesh Patil**  
-Computer Science and Engineering  
-R C Patel Institute of Technology  
-📧 bhaveshpatil1165@gmail.com  
-
-**Gaurang Mali**  
-Computer Science and Engineering  
-R C Patel Institute of Technology  
-📧 gaurangmali11@gmail.com  
-
-**Kalpesh Mahajan**  
-Computer Science and Engineering  
-R C Patel Institute of Technology  
-📧 kalpeshmahajan325@gmail.com  
+- Dipali Mali  
+- Neha Gayakawad  
+- Bhavesh Patil  
+- Gaurang Mali  
+- Kalpesh Mahajan  
 
 ---
 
