@@ -97,19 +97,19 @@ Dataset
 ```
 SAR-Image-Colorization/
 │
-├── models/                     
-├── images/                     
-├── output/                     
-├── assets/                     # README images
-│    ├── grayscale.jpeg
-│    ├── colorized.jpeg
-│    └── comparison.jpeg
+├── models/
+├── images/
+├── output/
+├── assets/                     
+│    ├── grayscale_input.png
+│    ├── colorized_output.png
+│    └── comparison.png
 │
-├── app.py                      
-├── image_colorization.py       
-├── GUI.py                      
-├── requirements.txt            
-└── README.md                   
+├── app.py
+├── image_colorization.py
+├── GUI.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -127,7 +127,7 @@ SAR-Image-Colorization/
 ### 🔹 Colorized Output
 
 <p align="center">
-  <img src="assets/colorized_output - Copy.png" width="600">
+  <img src="assets/colorized_output.png" width="600">
 </p>
 
 ---
@@ -200,7 +200,7 @@ This project is developed as a **research-oriented group project** focusing on d
 
 **Under the Guidance of:**
 
-**Prof. P. D. Lanjewar**  
+Prof. P. D. Lanjewar  
 Assistant Professor, Department of AIML  
 R C Patel Institute of Technology  
 Shirpur, Maharashtra  
