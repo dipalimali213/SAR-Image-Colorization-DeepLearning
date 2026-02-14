@@ -1,5 +1,5 @@
 # 🌍 SAR Image Colorization for Comprehensive Insight  
-###                                         using Deep Learning Model  
+### Using Deep Learning Model  
 
 ---
 
@@ -41,39 +41,16 @@ We implemented a Deep Learning-based colorization model that:
 
 ```
 Input SAR Image (Grayscale)
-          │
-          ▼
+        ↓
 Preprocessing (Resize, Normalize)
-          │
-          ▼
+        ↓
 Deep Learning Model (CNN)
-          │
-          ▼
+        ↓
 Color Prediction (a*b channels)
-          │
-          ▼
+        ↓
 Reconstruction (LAB → RGB)
-          │
-          ▼
+        ↓
 Colorized SAR Image (Output)
-```
-
----
-
-## 📊 ER Diagram (Conceptual)
-
-```
-Dataset
-│
-├── SAR Image
-│      ├── Image_ID
-│      ├── Path
-│      ├── Resolution
-│
-└── Optical Image
-       ├── Image_ID
-       ├── Path
-       ├── Corresponding_SAR_ID
 ```
 
 ---
@@ -88,7 +65,7 @@ Dataset
 | TensorFlow / Keras | Deep Learning framework |
 | Matplotlib | Visualization |
 | Jupyter Notebook | Model experimentation |
-| CNN Architecture | Image feature extraction |
+| CNN Architecture | Feature extraction |
 
 ---
 
@@ -100,10 +77,10 @@ SAR-Image-Colorization/
 ├── models/
 ├── images/
 ├── output/
-├── assets/                     
+├── results/
 │    ├── grayscale_input.png
-│    ├── colorized_output.png
-│    └── comparison.png
+│    ├── colorized_output - Copy.png
+│    └── comparison.jpeg
 │
 ├── app.py
 ├── image_colorization.py
@@ -119,7 +96,7 @@ SAR-Image-Colorization/
 ### 🔹 Grayscale SAR Image
 
 <p align="center">
-  <img src="results/grayscale_input.png" width="600">
+  <img src="results/grayscale_input.png" width="600"/>
 </p>
 
 ---
@@ -127,7 +104,7 @@ SAR-Image-Colorization/
 ### 🔹 Colorized Output
 
 <p align="center">
-  <img src="results/colorized_output - Copy.png" width="600">
+  <img src="results/colorized_output - Copy.png" width="600"/>
 </p>
 
 ---
@@ -135,7 +112,7 @@ SAR-Image-Colorization/
 ### 🔹 Before vs After Comparison
 
 <p align="center">
-  <img src="results/comparison.jpeg" width="800">
+  <img src="results/comparison.jpeg" width="800"/>
 </p>
 
 ---
@@ -190,20 +167,12 @@ python image_colorization.py
 
 ---
 
-## 📚 Research Contribution
-
-This project is developed as a **research-oriented group project** focusing on deep learning-based SAR image enhancement.
-
----
-
 ## 👨‍💻 Project Team
 
-**Under the Guidance of:**
-
+**Under the Guidance of:**  
 Prof. P. D. Lanjewar  
 Assistant Professor, Department of AIML  
 R C Patel Institute of Technology  
-Shirpur, Maharashtra  
 
 ---
 
