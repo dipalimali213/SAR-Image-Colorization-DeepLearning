@@ -127,7 +127,7 @@ SAR-Image-Colorization/
 ### 🔹 Colorized Output
 
 <p align="center">
-  <img src="results/colorized_output.png" width="600">
+  <img src="results/colorized_output - Copy.png" width="600">
 </p>
 
 ---
